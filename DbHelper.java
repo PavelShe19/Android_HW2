@@ -61,7 +61,7 @@ public class DbHelper extends SQLiteOpenHelper {
         this.addQuestion(q8);
         Question q9=new Question("'the answer is D", "a", "b", "c","d","a");
         this.addQuestion(q9);
-        Question q10=new Question("The name of King Tommen's favorite cat is","Battle Pus","Little Lion","Ser Pounce","Prince Fuzzy","Ser Pounce");
+        Question q10=new Question("what icecream is the best?","chocolate","vanilla","strawberry","coconuts","vanilla");
         this.addQuestion(q10);
     }
     @Override
