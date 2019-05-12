@@ -19,27 +19,27 @@ public class ScoreActivity extends AppCompatActivity {
 
         switch (intValue)
         {
-            case 0: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 0: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 1: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 1: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 2: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 2: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 3: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 3: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 4:t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 4:t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 5:t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 5:t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 6: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 6: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 7: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 7: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 8: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 8: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 9: t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 9: t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
-            case 10:t.setText("You answered correctly on " + intValue +"/"+"10" +" Questions");
+            case 10:t.setText("You answered correctly on " + intValue +"/"+"10" +" questions");
                 break;
         }
     }
