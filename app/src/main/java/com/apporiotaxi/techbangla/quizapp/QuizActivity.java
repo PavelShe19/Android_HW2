@@ -44,11 +44,11 @@ public class QuizActivity extends AppCompatActivity {
                 RadioGroup grp=(RadioGroup)findViewById(R.id.radioGroup1);
                 RadioButton answer=(RadioButton)findViewById(grp.getCheckedRadioButtonId());
                 grp.clearCheck();
-                Log.d("yourans", currentQ.getANSWER()+" "+answer.getText());
+                Log.d("your ans", currentQ.getANSWER()+" "+answer.getText());
                 if(currentQ.getANSWER().equals(answer.getText()))
                 {
                     score++;
-                    Log.d("score", "Your score"+score);
+                    Log.d("score", "your score"+score);
                 }
                 if(qid < 10){
                     currentQ=quesList.get(qid);
@@ -71,8 +71,8 @@ public class QuizActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.activity_quiz, menu);
+        
+        getMenuInflater().inflate(R.menu.activity_quiz, menu);// Inflate the menu; this adds items to the action bar if it is present.
         return true;
     }
     private void setQuestionView()
