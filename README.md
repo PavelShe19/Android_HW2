@@ -1,7 +1,7 @@
 # Android_HW2
 Members: 
-matan raviv 
-pavel shempliner 
-oshrit mauni 
-gal palas
-yotam jacob
+Matan Raviv 
+Pavel Shempliner 
+Oshrit Mauni 
+Gal Palas
+Yotam Jacob
